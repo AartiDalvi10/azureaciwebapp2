@@ -13,7 +13,7 @@ namespace employeecoreapp.Controllers
 {
     public class HomeController : Controller
     {
-        public string APIurl = "http://13.90.131.36";
+        public string APIurl = "http://13.82.94.140";
         public IActionResult Index()
         {
             List<Employee> lstEmployee = new List<Employee>();
